@@ -10,6 +10,7 @@ const HomePages = () => {
     return (
         <div>
             <p>{data}</p>
+            <p>{dataUser}</p>
             <HeaderAtoms></HeaderAtoms>
             <NavigationAtoms></NavigationAtoms>
             <FooterAtoms></FooterAtoms>
