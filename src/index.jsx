@@ -3,6 +3,10 @@ import FooterAtoms from "./components/FooterAtoms";
 import NavigationAtoms from "./components/NavigationAtoms";
 
 const HomePages = () => {
+    const data = "Hello World";
+    const username = "Yogawan";
+    const password = "123";
+    const dataUser = `${username}, ${password}`;
     return (
         <div>
             <p>{data}</p>
