@@ -1,10 +1,8 @@
-const data = "Hello World";
-console.log(data);
-
 const HomePages = () => {
+    const data = "Hello World";
     return (
         <div>
-            <p>Hello World!</p>
+            <p>{data}</p>
         </div>
     );
 };
